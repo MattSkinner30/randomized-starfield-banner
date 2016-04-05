@@ -48,6 +48,7 @@ body {
   width: 30px;
   background: url("../images/star.svg") no-repeat center center / contain transparent;
   animation: stars 2.5s infinite alternate;
+  transform-origin: center center;
 }
 
 @keyframes stars {
